@@ -38,7 +38,7 @@ void solve(){
     int arr[20];
     int n = 20;
     loop(i,20) arr[i] = i+1;
-    cout << findlcm(arr, 20); //232792560
+    cout << lcm_arr(arr, 20); //232792560
 }
 
 int main()
@@ -48,7 +48,7 @@ int main()
     cout.tie(0);
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
     //deb(t);
 
     while (t--) {
